@@ -32,5 +32,5 @@ float wallis_pi(int i)
     {
      a *= 4.0*n*n/(4*n*n-1);
      }
-         return 2*a;
+      return 2*a;
 }
