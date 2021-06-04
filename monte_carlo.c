@@ -38,6 +38,23 @@ int main(void) {
     }
   }
 }
+float mc_pi(int i)
+{
+    int pc=0,ps=i;
+    for (int n=0;n<=i;n++)
+    {
+        float x,y,rad;
+        x=frandom();
+        y=frandom();
+        rad = x*x+y*y;
+        if(rad<=1)
+        pc++;
+    }
+    float pi=4.0*pc/ps;
+  
+    return pi;
+        
+}
 
 
 
